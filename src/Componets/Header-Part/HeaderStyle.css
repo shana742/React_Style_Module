@@ -1,0 +1,121 @@
+
+.nav2{
+    display: flex;
+    width: 100%;
+    /* background: #088178; */
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 30px;
+    gap: 40px;
+}
+
+.nav2 .logo{
+    cursor: pointer;
+}
+
+.nav2 .categories{
+   padding-top: 17px;
+   
+}
+.nav2 .categories select{
+    height: 35px;
+}
+.nav2 .categories select::after{
+    content: '';
+        width: 1px;
+        height: 20px;
+        background: rgba(0, 0, 0, 0.2);
+        position: absolute;
+        top: 0px;
+        right: 0px;
+}
+.nav2  .search {
+    display: flex;
+    margin: auto 0;
+    height: 35px;
+    line-height: 35px;
+   border:  1px solid #3bb77e;
+}
+
+.nav2 .search input {
+    border: none;
+    outline: none;
+    background: #fff;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 20px;
+    width: 350px;
+}
+
+.nav2 .search .s-icon {
+     color:black;
+     font-size: 20px;
+     background: #fff;
+     height: 100%;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;   
+
+}
+
+.nav2 .header-tabs{
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-right: 30px;
+}
+.nav2 .header-tabs li {
+    position: relative;
+    margin-left: 20px;
+}
+.nav2 .header-tabs li span {
+    font-size: 15px;
+    cursor: pointer;
+}
+.nav2 .header-tabs li span img{
+    margin-right: 10px;
+    height: 25px;
+}
+.nav2 .header-tabs li span.badge{
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    font-weight: 400;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+
+.dropdownmenu {
+    position: absolute;
+    top: 115%;
+    left: 0px;
+    width: 145px;
+    height: auto;
+    background: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+}
+.dropdownmenu button{
+    right: 20px;
+    width: 100% !important;
+    color: black !important;
+    text-transform: capitalize !important;
+    font-size: 12px !important;
+    padding: 10px ;
+}
+
+.dropdownmenu  li {
+    width: 100%;
+    list-style: none;
+   
+}
+
+.dropdownmenu li svg {
+    opacity: 0.7;
+    margin-right: 8px !important;
+}
+
+.dropdownmenu li button:hover{
+    background: #f1f1f1 !important;
+}

@@ -1,0 +1,94 @@
+.homeSlider{
+    padding: 25px 0px;
+  overflow: hidden;
+ 
+}
+
+.homeSlider .container-fluid .home-slider-main  {
+     border-radius: 25px;
+   
+     position: relative;
+  
+} 
+
+
+/* .homeSlider .container-fluid .item img {
+   
+} */
+
+.home-slider-main .slick-dots{
+    position: absolute;
+    bottom: 20px !important;
+}
+.home-slider-main .slick-dots button::before {
+           width: 10px !important;
+           height: 10px !important;
+           font-size: 14px;
+}
+
+.slick-active button::before {
+      color: #3bb77e !important;
+}
+
+.home-slider-main .item {
+    position: relative;  
+}
+.home-slider-main .item .info {
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    z-index: 100;
+}
+
+.home-slider-main .item .info h2 {
+    font-size: 55px ;
+    font-weight: bolder;
+    color: rgba(0,0,0,0.8);
+
+}
+
+.home-slider-main .item .info p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #7E7E7E;
+}
+
+.homeSlider .newsletterbanner {
+    width: 600px;
+    height: 60px;
+    position: absolute;
+    bottom: 40px;
+    left: 8%;
+    z-index: 10;
+}
+.homeSlider .newsletterbanner  input{
+    width: 65%;
+    height: 80%;
+    background: #fff;
+    border: 0px;
+    border-radius: 30px;
+    outline: none !important;
+    padding-left: 50px;
+    padding-right: 110px;
+    font-size: 15px;
+}
+
+.homeSlider .newsletterbanner button {
+    padding: 7px 15px !important;
+    border-radius: 30px !important;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 50%;   
+    font-size: 20px;
+    text-transform: capitalize !important;
+}
+.homeSlider .newsletterbanner svg {
+    position: absolute;
+    top: 11px;
+    left: 20px;
+    z-index: 10;
+    font-size: 20px;
+    transform: rotate(-25deg);
+    opacity: 0.5;
+}

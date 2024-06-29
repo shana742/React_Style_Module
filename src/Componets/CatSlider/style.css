@@ -1,0 +1,41 @@
+.catSlider-Section{
+    width: 130%;
+    height: auto;
+    padding: 30px 0px;
+    overflow: hidden;
+}
+.cat-slider-main .slick-slide{
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+.cat-slider-main .item {
+     height: auto;
+      background: #F4F6FA; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer; 
+      padding: 15px;
+      margin-left: 20px;
+    
+}
+.cat-slider-main .item .info {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cat-slider-main .item .info h5 {
+    font-weight: 500 !important;
+
+}
+.cat-slider-main .item .info p {
+    font-size: 14px;
+    opacity: 0.8;
+    color: #000;
+    margin-bottom: 0px;
+}
+
+
